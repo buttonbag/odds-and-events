@@ -1,0 +1,35 @@
+html, body {
+  font-size: 24px;
+}
+
+main, section, header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  gap: 0;
+}
+
+section {
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+h2 {
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+span {
+  border: 1px solid black;
+  align-items: center;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: .5rem;
+  height: 3rem;
+}
